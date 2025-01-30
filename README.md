@@ -1,11 +1,10 @@
 # GORUNA
 
-## 🙂 1253조 팀원
 <div align="center">
 
-| <img src="https://avatars.githubusercontent.com/u/128581270?v=4" width="100" height="100"/> | <img src="https://avatars.githubusercontent.com/u/92318119?v=4" width="100" height="100"/> | <img src="https://avatars.githubusercontent.com/u/136975414?v=4" width="100" height="100"/> | <img src="https://avatars.githubusercontent.com/u/74580387?v=4" width="100" height="100"/> | <img src="https://avatars.githubusercontent.com/u/108400640?v=4" width="100" height="100"/> |
-|:-------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
-|             김민주<br>[@minju0224](https://github.com/minju0224)                               |                              구대윤<br>[@kookong2](https://github.com/kookong2)               |                     김태영<br>[@wildcat222](https://github.com/wildcat222)                      |                       김윤후<br>[@WhooGeek](https://github.com/WhooGeek)                       |                          권형미[@hyomee2](https://github.com/hyomee2)                     |
+|<img src="https://avatars.githubusercontent.com/u/136975414?v=4" width="100" height="100"/>|
+:-:|
+|김태영<br>[@wildcat222](https://github.com/wildcat222)|
 </div>
 
 ## 📢 프로젝트 소개
@@ -40,103 +39,21 @@
 "고루나"는 음식점과 고객이 모두 혜택을 누릴 수 있도록 하여, 음식 자원의 효율적인 재분배와 환경 보호에 기여하고자 합니다. 
 이를 통해 음식물 낭비를 줄이고 지속 가능한 소비 문화를 형성하여 지역 사회에 긍정적인 변화를 가져오는 것을 목표로 하고 있습니다.
 
-## 💡 GORUNA의 경쟁력
 
-<hr>
-
-## 📝 요구사항정의서
-
-[![📝 요구사항 명세서 상세보기](/img/list.png)](https://docs.google.com/spreadsheets/d/1Q5mAK7DpkkMOAeIJh1vDpDNL0JCxNqVo04mbXbr1T1Y/edit?gid=0#gid=0)
-
-<hr>
-
-## 📋 ERD
-
-[![📋 ERD 상세 보기](/img/erd.png)](https://www.erdcloud.com/d/DDWNRpYaiZ6gYSKKD)
-
-<hr>
 
 ## 📑 REST API 설계 문서
 
 [![📑 REST API 설계 문서](/img/restAPI.png)](https://docs.google.com/spreadsheets/d/1Q5mAK7DpkkMOAeIJh1vDpDNL0JCxNqVo04mbXbr1T1Y/edit?gid=900731616#gid=900731616)
 
-<hr>
 
-## 🏷️ DDD 설계
 
-### 🔸 Aggregate 정의
-
-![Aggregate 정의](/img/aggregate.png)
-
-### 🔸 Bounded-Context
-
-![Bounded-Context 정의](/img/bounded.png)
-
-### 🔸 Policy Deduction
-
-![Policy Deduction 정의](/img/poly.png)
-
-<hr>
-
-## 💻 아키텍처 구조도
-
-![MSA 아키텍처 구조도](/img/arch.png)
-
-<hr>
-
-## 🥴 Jenkins
-
-![jenkins](/img/jenkins.gif)
-
-## 📌 주요 기능
-
-### 회원
-<details>
-<summary><strong> 소셜 로그인 </strong></summary>
-
-![소셜로그인](/img/preview/user/login.gif)
-</details>
-
-<details>
-<summary><strong> 로그아웃</strong></summary>
-
-![로그아웃](/img/preview/user/logout.gif)
-</details>
-
-<details>
-<summary><strong>닉네임 변경</strong></summary>
-
-![닉네임 변경](/img/preview/user/changeNickname.gif)
-</details>
-
-### 메인화면
-<details>
-
-<summary><strong>메인화면</strong></summary>
-
-![메인페이지](/img/preview/user/mainMap.gif)
-
-</details>
+## 📌 담당 기능
 
 ### 매장
-<details>
-<summary><strong>유저 매장 조회</strong></summary>
-
-![매장조회](/img/preview/user/shopSearch.gif)
-
-</details>
-
 <details>
 <summary><strong> 매장 등록 </strong></summary>
 
 ![매장 등록](/img/preview/user/shopApply%201.gif)
-![매장 등록](/img/preview/user/shopApply%202.gif)
-</details>
-
-<details>
-<summary><strong> 관리자 매장 승인 </strong></summary>
-
-![매장 등록](/img/preview/admin/(admin)%20updateShopAuth.gif)
 </details>
 
 <details>
@@ -156,57 +73,4 @@
 
 ![매장 등록](/img/preview/owner/(owner)getCustomer,%20applyGet.gif)
 </details>
-g
 
-### 예약
-<details>
-<summary><strong> 예약하기 </strong></summary>
-
-![예약하기](/img/preview/book/book.gif)
-</details>
-
-<details>
-<summary><strong> 예약 취소하기 </strong></summary>
-
-![예약 취소하기](/img/preview/book/book-cancel.gif)
-</details>
-
-### 리뷰
-<details>
-<summary><strong> 리뷰 작성 및 조회하기 </strong></summary>
-
-![리뷰 작성 및 조회하기](/img/preview/review/write-review.gif)
-</details>
-
-### 북마크
-<details>
-<summary><strong> 북마크 등록 및 조회하기 </strong></summary>
-
-![북마크](/img/preview/bookmark/bookmark.gif)
-
-</details>
-
-
-
-
-### 관리자 
-<details>
-
-<summary><strong> 매장 관리 검색 </strong></summary>
-
-![매장 조회](/img/preview/admin/(admin)shopSearch.gif)
-
-<summary><strong> 매장 삭제 </strong></summary>
-
-![매장 삭제](/img/preview/admin/(admin)%20deleteShop.gif)
-
-
-<summary><strong> 카테고리 추가 </strong></summary>
-
-![카테고리추가](/img/preview/admin/(admin)%20addCategory.gif)
-
-<summary><strong> 카테고리 삭제 </strong></summary>
-
-![카테고리삭제](/img/preview/admin/(admin)deleteCategory.gif)
-
-</details>
