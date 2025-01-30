@@ -39,6 +39,26 @@
 "고루나"는 음식점과 고객이 모두 혜택을 누릴 수 있도록 하여, 음식 자원의 효율적인 재분배와 환경 보호에 기여하고자 합니다. 
 이를 통해 음식물 낭비를 줄이고 지속 가능한 소비 문화를 형성하여 지역 사회에 긍정적인 변화를 가져오는 것을 목표로 하고 있습니다.
 
+## 기술 스택
+
+### 💻 Backend
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=SpringSecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=JSONWebTokens&logoColor=white)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD?style=flat-square&logo=QueryDSL&logoColor=white)
+
+
+### 💾 Database
+![MySQL](https://img.shields.io/badge/MySQL-003545?style=flat-square&logo=MySQL&logoColor=white)
+
+### 🔧 Development
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)
+
+### 🎨 Frontend
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white)
+
 
 
 ## 📑 REST API 설계 문서
@@ -48,6 +68,9 @@
 
 
 ## 📌 담당 기능
+
+<strong> 1. QueryDSL을 사용한 사장 권한에 대한 기능 구현 </strong>  
+<strong> 2. Vue.js Composition Api 방식을 통해 클라이언트와 서버 API 연동 및 사장 권한에 대한 페이지 구성 </strong>
 
 ### 매장
 <details>
